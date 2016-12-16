@@ -220,6 +220,7 @@ public class MainActivity extends Activity {
     };
     
     private void webView(String imagePath) {
+        System.out.println("open webview");
     	String url = imagePath;
     	Intent intent = new Intent(Intent.ACTION_VIEW);
     	intent.setData(Uri.parse(url));

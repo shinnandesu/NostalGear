@@ -47,7 +47,7 @@ public class PostMessageTask2 extends AsyncTask<String, String, String> {
 //            System.out.println(EntityUtils.toString(response.getEntity()));
             HttpEntity entity = response.getEntity();
             imagePath = EntityUtils.toString(entity);
-            System.out.println(imagePath);
+            System.out.println(3);
             
         } catch (ClientProtocolException e) {
             Log.v("ERR", "msg:" + e.getMessage());
